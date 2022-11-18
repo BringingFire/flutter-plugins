@@ -1,0 +1,13 @@
+name: flutter_plugins
+repository: https://github.com/BringingFire/flutter-plugins
+
+packages:
+  - packages/*
+
+scripts:
+  analyze:
+    exec: dart analyze .
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
